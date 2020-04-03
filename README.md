@@ -1,4 +1,4 @@
-# hexo-theme-jpazure
+# hexo-theme-jpspsupport
 
 hexo theme for jpspsupport tech blog
 
