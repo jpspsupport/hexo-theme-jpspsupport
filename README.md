@@ -1,15 +1,15 @@
 # hexo-theme-jpazure
 
-hexo theme for jpazure tech blog
+hexo theme for jpspsupport tech blog
 
 > forked from [hexo-theme-landscape](https://github.com/hexojs/hexo-theme-landscape)
 
 ## Set Up
 
 ```sh
-git clone https://github.com/jpazureid/hexo-theme-jpazure.git themes/jpazure
+git clone https://github.com/jpspsupport/hexo-theme-jpspsupport.git themes/jpspsupport
 npm i -D hexo-generator-feed
-npm i -D jpazureid/hexo-helper-github-issues hexo-generator-root-tag
+npm i -D jpspsupport/hexo-helper-github-issues hexo-generator-root-tag
 ```
 
 ## hexo config.yml
@@ -18,14 +18,12 @@ npm i -D jpazureid/hexo-helper-github-issues hexo-generator-root-tag
 ```yml
 root_tag_generator:
   root_tag_names:
-    - Azure AD
-    - AAD Connect
-    - AD FS
-    - 情報採取
+    - SharePoint Online
+    - Onedrive for Business
   sub_tag_limit: 20
   
 github:
-  url: https://github.com/jpazureid/blog/
+  url: https://github.com/jpspsupport/blog/
   posts_dir: articles
 
 ```
